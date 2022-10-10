@@ -113,7 +113,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	
+	/* background-color: hotpink; */
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
