@@ -10,6 +10,40 @@ body {
 	background-color: black;
 }
 
+@keyframes blinkingBackground{
+	0% {
+		display: none;
+	}
+	50%		{ 
+		background-color: white;
+		position:absolute;
+		z-index: 111;
+		/* transition: all; */
+		animation-delay: 2s;
+		content: "";
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	100%		{ display: none;} 
+}
+
+/* .whiteBackground {
+	background-color: white;
+	position:absolute;
+	z-index: 111;
+	transition: all;
+	animation-delay: 2s;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+} */
+
+/* class op body toevoegen met animation delay na bepaalde seconde toevoegen. */
+
 @keyframes shake {
 	0% { transform: translate(1px, 1px) rotate(0deg); }
 	10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -71,9 +105,9 @@ body {
 
 .sound9 {
 	animation: blinkingBackground 0.2s;
-	animation-delay: 3ms;
-	animation-iteration-count:300;
+	animation-iteration-count: 205;
 }
+
 .sound8 #video-mask {
 	animation: shakeee 0.5s;
 	animation-iteration-count: 2;
@@ -559,6 +593,13 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 }
+
+.p77.on body{
+	background: white;
+	position: absolute;
+	z-index: 3;
+}
+
 
 
 
