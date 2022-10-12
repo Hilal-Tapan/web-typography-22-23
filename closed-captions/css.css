@@ -10,6 +10,75 @@ body {
 	background-color: black;
 }
 
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+@keyframes shakee {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes shakeee {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes blinkingBackground{
+	0%		{ background-color: #282828}
+	25%		{ background-color: black}
+	50%		{ background-color: #282828}
+	75%		{ background-color: black}
+	100%	{ background-color: #282828}
+}
+.sound4 #video-mask {
+	animation: shake 0.5s;
+	animation-iteration-count: 2;
+}
+
+.sound6 #video-mask {
+	animation: shakee 0.5s;
+	animation-iteration-count: 2;
+}
+
+.sound9 {
+	animation: blinkingBackground 0.2s;
+	animation-delay: 3ms;
+	animation-iteration-count:300;
+}
+.sound8 #video-mask {
+	animation: shakeee 0.5s;
+	animation-iteration-count: 2;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -31,7 +100,12 @@ body {
 	font-style: italic;
 	color: white;
 }
-
+ 
+.voice4 {
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+}
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -77,7 +151,8 @@ You probably want to change the styling.
 }
 
 .p6.on {
-	color: red;
+	background-color: red;
+	color:white;
 	font-family: brenner;
 	font-size: 20px;
 	font-style: italic;
@@ -302,7 +377,6 @@ You probably want to change the styling.
 }
 
 .p47.on {
-	color: black;
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
@@ -325,7 +399,6 @@ You probably want to change the styling.
 }
 
 .p51.on {
-	color: black;
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
