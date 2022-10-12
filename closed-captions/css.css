@@ -5,6 +5,11 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+body {
+	background-color: black;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -18,10 +23,13 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
 }
 .voice2 {
-	font-weight: bold;
+	font-style: italic;
+	color: white;
 }
 
 /* **********************************************
@@ -32,77 +40,454 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-.p0 span {
-	opacity: 0;
+.p0.on {
+	font-size: 20px;
 	font-family: brenner;
 }
-.p0.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	font-weight: 200;
-}
-.p0.on span:nth-of-type(2) {
-	opacity: 1;
-	transition: 0s .4s;
-	margin-right: -.25em;
-	font-weight: 400;
-}
-.p0.on span:nth-of-type(3) {
-	opacity: 1;
-	transition: 0s .5s;
-	margin-right: -.25em;
-	font-weight: 600;
-}
-.p0.on span:nth-of-type(4) {
-	opacity: 1;
-	transition: 0s .7s;
-	margin-right: -.25em;
-	font-weight: 800;
-}
-.p0.on span:nth-of-type(5) {
-	opacity: 1;
-	transition: 0s 1.1s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-}
-.p0.on span:nth-of-type(6) {
-	opacity: 1;
-	transition: 0s 1.4s;
-	margin-right: -.25em;
-	font-family: "brenner display";
-}
-.p0.on span:nth-of-type(7) {
-	opacity: 1;
-	transition: 0s 1.7s;
-	margin-right: -.25em;
-	font-family: "brenner script";
-}
-.p0.on span:nth-of-type(8) {
-	opacity: 1;
-	transition: 0s 2s;
-	font-family: "brenner script";
-}
-.p0.on span:nth-of-type(9) {
-	opacity: 1;
-	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
-}
-.p0.on span:nth-of-type(10) {
-	opacity: 1;
-	transition: 0s 3.2s;
-	font-family: "brenner mono";
-}
-.p0.on span:nth-of-type(11) {
-	opacity: 1;
-	transition: 0s 3.7s;
-	font-family: "brenner slab";
-}
+
 
 .p1.on {
-	background: hotpink;
-	color: red;
-	font-size: 200px;
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
 }
+
+.p2.on {
+	font-family: brenner;
+	font-size: 20px;
+
+}
+
+.p3.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p4.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p5.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p6.on {
+	color: red;
+	font-family: brenner;
+	font-size: 20px;
+	font-style: italic;
+
+}
+
+.p7.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p8.on {
+	font-family: brenner;
+	font-size: 20px;
+
+}
+
+.p9.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p10.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p11.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p12.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p13.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p14.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p15.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p16.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p17.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p18.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p19.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p20.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p21.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p22.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p23.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p24.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p25.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p26.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p27.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p28.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p29.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p30.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p31.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p32.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p33.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p34.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p35.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p36.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p37.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p38.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p39.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p40.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p41.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p42.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p43.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p44.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p45.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p46.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p47.on {
+	color: black;
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p48.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p49.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p50.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p51.on {
+	color: black;
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p52.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p53.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p54.on {
+	font-family: brenner;
+	font-size: 20px;
+}
+
+.p55.on {
+	color: pink;
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p56.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p57.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p58.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p59.on {
+	color: black;
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p60.on {
+	font-size: 20px;
+	right: 6.2em;
+	font-family: brenner;
+}
+
+.p61.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p62.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p63.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p64.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p65.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p66.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p67.on {
+	font-size: 20px;
+	font-family: brenner;
+	/* maak bold */
+}
+
+.p68.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p69.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p70.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p71.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p72.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p73.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p74.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p75.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p76.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p77.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+.p78.on {
+	font-size: 20px;
+	font-family: brenner;
+	right: 6.2em;
+}
+
+.p79.on {
+	font-size: 20px;
+	font-family: brenner;
+}
+
+
 
 /* **********************************************
 Sounds.
