@@ -6,113 +6,6 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
-body {
-	background-color: black;
-}
-
-@keyframes blinkingBackground{
-	0% {
-		display: none;
-	}
-	50%		{ 
-		background-color: white;
-		position:absolute;
-		z-index: 111;
-		/* transition: all; */
-		animation-delay: 2s;
-		content: "";
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-	100%		{ display: none;} 
-}
-
-/* .whiteBackground {
-	background-color: white;
-	position:absolute;
-	z-index: 111;
-	transition: all;
-	animation-delay: 2s;
-	content: "";
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-} */
-
-/* class op body toevoegen met animation delay na bepaalde seconde toevoegen. */
-
-@keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-
-@keyframes shakee {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-
-  @keyframes shakeee {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-
-  @keyframes blinkingBackground{
-	0%		{ background-color: #282828}
-	25%		{ background-color: black}
-	50%		{ background-color: #282828}
-	75%		{ background-color: black}
-	100%	{ background-color: #282828}
-}
-.sound4 #video-mask {
-	animation: shake 0.5s;
-	animation-iteration-count: 2;
-}
-
-.sound6 #video-mask {
-	animation: shakee 0.5s;
-	animation-iteration-count: 2;
-}
-
-.sound9 {
-	animation: blinkingBackground 0.2s;
-	animation-iteration-count: 205;
-}
-
-.sound8 #video-mask {
-	animation: shakeee 0.5s;
-	animation-iteration-count: 2;
-}
-
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -190,7 +83,6 @@ You probably want to change the styling.
 	font-family: brenner;
 	font-size: 20px;
 	font-style: italic;
-
 }
 
 .p7.on {
@@ -398,64 +290,75 @@ You probably want to change the styling.
 .p44.on {
 	font-family: brenner;
 	font-size: 20px;
+	color: black;
 }
 
 .p45.on {
 	font-family: brenner;
 	font-size: 20px;
+	color: black;
 }
 
 .p46.on {
 	font-family: brenner;
 	font-size: 20px;
+	color:black;
 }
 
 .p47.on {
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color: black;
 }
 
 .p48.on {
 	font-family: brenner;
 	font-size: 20px;
+	color: white;
 }
 
 .p49.on {
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color: white
 }
 
 .p50.on {
 	font-family: brenner;
 	font-size: 20px;
+	color: white;
 }
 
 .p51.on {
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color: white;
 }
 
 .p52.on {
 	font-family: brenner;
 	font-size: 20px;
+	color: white;
 }
 
 .p53.on {
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color: white;
 }
 
 .p54.on {
 	font-family: brenner;
 	font-size: 20px;
+	color: white;
 }
 
 .p55.on {
-	color: pink;
+	color: white;
 	font-size: 20px;
 	font-family: brenner;
 }
@@ -464,67 +367,80 @@ You probably want to change the styling.
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color: white;
 }
 
 .p57.on {
 	font-size: 20px;
 	font-family: brenner;
+	color: white;
 }
 
 .p58.on {
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color:white;
 }
 
 .p59.on {
 	color: black;
 	font-size: 20px;
 	font-family: brenner;
+	color: white;
 }
 
 .p60.on {
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
+	color: white;
 }
 
 .p61.on {
 	font-size: 20px;
 	font-family: brenner;
+	color: white;
 }
 
 .p62.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p63.on {
 	font-size: 20px;
 	font-family: brenner;
+	color: white;
 }
 
 .p64.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p65.on {
 	font-size: 20px;
 	font-family: brenner;
+	color: white;
 }
 
 .p66.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p67.on {
-	font-size: 20px;
+	font-size: 30px;
 	font-family: brenner;
+	color: white;
+	font-weight: bold;
 	/* maak bold */
 }
 
@@ -532,75 +448,86 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p69.on {
-	font-size: 20px;
+	font-size: 30px;
 	font-family: brenner;
+	color: white;
 }
 
 .p70.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p71.on {
-	font-size: 20px;
+	font-size: 30px;
 	font-family: brenner;
+	color: white;
 }
 
 .p72.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p73.on {
-	font-size: 20px;
+	font-size: 30px;
 	font-family: brenner;
+	color: white;
 }
 
 .p74.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p75.on {
-	font-size: 20px;
+	font-size: 40px;
 	font-family: brenner;
+	color: white;
 }
 
 .p76.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p77.on {
-	font-size: 20px;
+	font-size: 40px;
 	font-family: brenner;
+	color: white;
 }
 
 .p78.on {
 	font-size: 20px;
 	font-family: brenner;
 	right: 6.2em;
+	color: white;
 }
 
 .p79.on {
 	font-size: 20px;
 	font-family: brenner;
+	color: white;
 }
 
 .p77.on body{
 	background: white;
 	position: absolute;
 	z-index: 3;
+	color: white;
 }
-
-
 
 
 /* **********************************************
@@ -609,24 +536,109 @@ Sounds.
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
+@keyframes shake {
+	0%  { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	/* background-color: hotpink; */
+@keyframes shakee {
+	0%  { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes shakeee {
+	0%  { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes blinkingBackground{
+	0%		{ background-color: #282828}
+	25%		{ background-color: black}
+	50%		{ background-color: #282828}
+	75%		{ background-color: black}
+	100%	{ background-color: #282828}
 }
 
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
+@keyframes radialFade{
+	0%		{ background-color: white}
+	25%		{ background-color: lightgray}
+	50%		{ background-color: gray}
+	75%		{ background-color: #282828}
+	100%	{ background-color: black}
+}
+
+.sound4 #video-mask {
+	animation: shake 0.5s;
+	animation-iteration-count: 2;
+}
+
+.sound6 #video-mask {
+	animation: shakee 0.5s;
+	animation-iteration-count: 2;
+}
+
+.sound8 #video-mask {
+	animation: shakeee 0.5s;
+	animation-iteration-count: 2;
+}
+
+.sound9 {
+	animation: blinkingBackground 0.2s;
+	animation-iteration-count: infinite;
+}
+
+.sound10 {
+	background-color: white;
+	animation-name: none;
 	
 }
+ 
+.sound11 {
+	/* animation-name: none; */
+	background-color: radial-gradient();
+	animation: radialFade 5s ease-in-out;
+}
+
+.sound13 {
+	animation-name: none;
+	background-color: black;
+}
+
 
 
 /* **********************************************
 Basic layout.
 	Place the video in the center of the page.
 *********************************************  */
-
 body {
+	background-color: black;
 	display: grid;
 	height: 100vh;
 	margin: 0;
