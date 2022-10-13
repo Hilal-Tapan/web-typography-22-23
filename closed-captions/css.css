@@ -315,6 +315,7 @@ You probably want to change the styling.
 .p48.on {
 	font-family: brenner;
 	font-size: 20px;
+	font-weight: bold;
 	color: white;
 }
 
@@ -322,13 +323,14 @@ You probably want to change the styling.
 	font-size: 20px;
 	right: 6.2em;
 	font-family: brenner;
-	color: white
+	color: white;
 }
 
 .p50.on {
 	font-family: brenner;
 	font-size: 20px;
 	color: white;
+	font-weight: bold;
 }
 
 .p51.on {
@@ -342,6 +344,7 @@ You probably want to change the styling.
 	font-family: brenner;
 	font-size: 20px;
 	color: white;
+	font-weight: bold;
 }
 
 .p53.on {
@@ -355,12 +358,14 @@ You probably want to change the styling.
 	font-family: brenner;
 	font-size: 20px;
 	color: white;
+	font-weight: bold;
 }
 
 .p55.on {
 	color: white;
 	font-size: 20px;
 	font-family: brenner;
+	font-weight: bold;
 }
 
 .p56.on {
@@ -374,6 +379,7 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p58.on {
@@ -384,10 +390,10 @@ You probably want to change the styling.
 }
 
 .p59.on {
-	color: black;
 	font-size: 20px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p60.on {
@@ -401,6 +407,7 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p62.on {
@@ -414,6 +421,7 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p64.on {
@@ -427,6 +435,7 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p66.on {
@@ -441,7 +450,6 @@ You probably want to change the styling.
 	font-family: brenner;
 	color: white;
 	font-weight: bold;
-	/* maak bold */
 }
 
 .p68.on {
@@ -455,6 +463,7 @@ You probably want to change the styling.
 	font-size: 30px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p70.on {
@@ -468,6 +477,7 @@ You probably want to change the styling.
 	font-size: 30px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p72.on {
@@ -481,6 +491,7 @@ You probably want to change the styling.
 	font-size: 30px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p74.on {
@@ -494,6 +505,7 @@ You probably want to change the styling.
 	font-size: 40px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p76.on {
@@ -507,6 +519,7 @@ You probably want to change the styling.
 	font-size: 40px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
 .p78.on {
@@ -520,14 +533,16 @@ You probably want to change the styling.
 	font-size: 20px;
 	font-family: brenner;
 	color: white;
+	font-weight: bold;
 }
 
-.p77.on body{
+/* .p77.on body {
 	background: white;
 	position: absolute;
 	z-index: 3;
 	color: white;
-}
+	font-weight: bold;
+} */
 
 
 /* **********************************************
@@ -578,7 +593,15 @@ Sounds.
 	100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-  @keyframes blinkingBackground{
+  @keyframes blinkingBackground {
+	0%		{ background-color: #282828}
+	25%		{ background-color: black}
+	50%		{ background-color: #282828}
+	75%		{ background-color: black}
+	100%	{ background-color: #282828}
+}
+
+@keyframes blinkingBackground2 {
 	0%		{ background-color: #282828}
 	25%		{ background-color: black}
 	50%		{ background-color: #282828}
@@ -588,8 +611,8 @@ Sounds.
 
 @keyframes radialFade{
 	0%		{ background-color: white}
-	25%		{ background-color: lightgray}
-	50%		{ background-color: gray}
+	25%		{ background-color: gray}
+	50%		{ background-color: #383838}
 	75%		{ background-color: #282828}
 	100%	{ background-color: black}
 }
@@ -621,14 +644,28 @@ Sounds.
 }
  
 .sound11 {
-	/* animation-name: none; */
 	background-color: radial-gradient();
-	animation: radialFade 5s ease-in-out;
+	animation: radialFade 5.5s ease-in-out;
 }
 
-.sound13 {
+.sound12 {
+	animation-name:none;
+    background-color: black;
+}
+
+.sound14 {
+	animation: blinkingBackground2 0.2s;
+	animation-iteration-count: infinite;
+
+}
+
+.sound15 {
 	animation-name: none;
-	background-color: black;
+}
+
+.sound15 #video-mask{
+	animation-name: none;
+    opacity: 0;
 }
 
 
