@@ -551,6 +551,20 @@ Sounds.
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
+@keyframes shak {
+	0%  { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 @keyframes shake {
 	0%  { transform: translate(1px, 1px) rotate(0deg); }
 	10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -610,12 +624,95 @@ Sounds.
 }
 
 @keyframes radialFade{
-	0%		{ background-color: white}
-	25%		{ background-color: gray}
+	0%		{ background-color: green}
+	25%		{ background-color: darkgreen}
 	50%		{ background-color: #383838}
 	75%		{ background-color: #282828}
 	100%	{ background-color: black}
 }
+
+@keyframes radialAlarm{
+	10%		{ background-color: red}
+	20%		{ background-color: red}
+	30%		{ background-color: darkred}
+	40%		{ background-color: #450000}
+	50%		{ background-color: #450000}
+	70%		{ background-color: #383838}
+	80%		{ background-color: #282828}
+	100%	{ background-color: black}
+}
+
+@keyframes radialAlarm2{
+	10%		{ background-color: red}
+	20%		{ background-color: red}
+	30%		{ background-color: darkred}
+	40%		{ background-color: #450000}
+	50%		{ background-color: #450000}
+	70%		{ background-color: #383838}
+	80%		{ background-color: #282828}
+	100%	{ background-color: black}
+}
+
+@keyframes blinkingBackground3 {
+	0%		{ background-color: #282828}
+	25%		{ background-color: black}
+	50%		{ background-color: #282828}
+	75%		{ background-color: black}
+	100%	{ background-color: #282828}
+}
+
+@keyframes blinkingBackground4 {
+	0%		{ background-color: #383838}
+	25%		{ background-color: black}
+	50%		{ background-color: #383838}
+	75%		{ background-color: black}
+	100%	{ background-color: #383838}
+}
+
+@keyframes blinkingBackground5 {
+	0%		{ background-color: grey}
+	25%		{ background-color: black}
+	50%		{ background-color: grey}
+	75%		{ background-color: black}
+	100%	{ background-color: grey}
+}
+
+@keyframes videoBorder {
+	from {}
+}
+
+/* .sound0 {
+	animation: radialAlarm 2s;
+	animation-iteration-count: infinite;
+ 
+} */
+
+.sound0 {
+	background-image: radial-gradient(red, rgba(0,0,0,0.5));
+	animation: radialAlarm 5.5s ease-in-out;
+}
+
+.sound1 {
+	background-image: radial-gradient(red, rgba(0,0,0,0.5));
+	animation: radialAlarm2 5.5s ease-in-out;
+}
+.sound2{
+	animation: blinkingBackground3 0.5s;
+	animation-iteration-count: 2;
+}
+
+.sound4 {
+	background-color:black;
+    background-image:none;
+	animation-name: none;
+
+/* waarom werkt deze niet? moet zwarte achtergrond worden */
+}
+
+/* .sound1 #video-mask {
+	animation: shak 0.5;
+	animation-iteration-count: 2;
+} */
 
 .sound4 #video-mask {
 	animation: shake 0.5s;
@@ -638,32 +735,41 @@ Sounds.
 }
 
 .sound10 {
-	background-color: white;
+	animation: blinkingBackground4 0.2s;
+	animation-iteration-count: infinite;
+}
+
+.sound11 {
+	animation: blinkingBackground5 0.2s;
+	animation-iteration-count: infinite;
+}
+.sound12 {
+	background-color: green;
 	animation-name: none;
 	
 }
  
-.sound11 {
+.sound13 {
 	background-color: radial-gradient();
 	animation: radialFade 5.5s ease-in-out;
 }
 
-.sound12 {
+.sound14 {
 	animation-name:none;
     background-color: black;
 }
 
-.sound14 {
+.sound15 {
 	animation: blinkingBackground2 0.2s;
 	animation-iteration-count: infinite;
 
 }
 
-.sound15 {
+.sound16 {
 	animation-name: none;
 }
 
-.sound15 #video-mask{
+.sound17 #video-mask{
 	animation-name: none;
     opacity: 0;
 }
