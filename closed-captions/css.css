@@ -19,18 +19,16 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	font-style: normal;
-	font-weight: bold;
+	/* font-style: normal;
+	font-weight: bold; */
 	color: white;
 }
 .voice2 {
-	font-style: italic;
 	color: white;
 }
  
 .voice4 {
 	font-style: normal;
-	font-weight: bold;
 	color: white;
 }
 /* **********************************************
@@ -42,33 +40,35 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 .p0.on {
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
+	font-style: Normal;
+	
 }
 
 
 .p1.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p2.on {
-	font-family: brenner;
-	font-size: 20px;
-
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p3.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p4.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p5.on {
@@ -80,255 +80,285 @@ You probably want to change the styling.
 .p6.on {
 	background-color: red;
 	color:white;
-	font-family: brenner;
+	font-family: "brenner mono";
 	font-size: 20px;
 	font-style: italic;
+	font-weight: bold;
+	/* fuck off skinjob */
 }
 
 .p7.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family:"brenner slab";
 }
 
 .p8.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 
 }
 
 .p9.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p10.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p11.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p12.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p13.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p14.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p15.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p16.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p17.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p18.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p19.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p20.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p21.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p22.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p23.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p24.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p25.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p26.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p27.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p28.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p29.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p30.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p31.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p32.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p33.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p34.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p35.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p36.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p37.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p38.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p39.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p40.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
+	font-style: Normal;
 }
 
 .p41.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p42.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p43.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 }
 
 .p44.on {
-	font-family: brenner;
-	font-size: 20px;
-	color: black;
+	font-family: "brenner sans";
+	font-style: Normal;
+	font-size: 22px;
+	color: white;
+	/* were done */
 }
 
 .p45.on {
-	font-family: brenner;
-	font-size: 20px;
-	color: black;
+	font-family: "brenner sans";
+	font-style: Normal;
+	font-size: 22px;
+	color: white;
 }
 
 .p46.on {
-	font-family: brenner;
-	font-size: 20px;
-	color:black;
+	font-family: "brenner sans";
+	font-style: Normal;
+	font-size: 22px;
+	color:white;
 }
 
 .p47.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
-	color: black;
+	font-family: "brenner slab";
+	color: white;
+	
 }
 
 .p48.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-style: Normal;
+	font-size: 22px;
 	font-weight: bold;
 	color: white;
+	/* start tweede deel */
 }
 
 .p49.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 	color: white;
 }
 
 .p50.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
 	color: white;
 	font-weight: bold;
 }
@@ -336,13 +366,13 @@ You probably want to change the styling.
 .p51.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 	color: white;
 }
 
 .p52.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
 	color: white;
 	font-weight: bold;
 }
@@ -350,34 +380,34 @@ You probably want to change the styling.
 .p53.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 	color: white;
 }
 
 .p54.on {
-	font-family: brenner;
-	font-size: 20px;
+	font-family: "brenner sans";
+	font-size: 22px;
 	color: white;
 	font-weight: bold;
 }
 
 .p55.on {
 	color: white;
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
 	font-weight: bold;
 }
 
 .p56.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 	color: white;
 }
 
 .p57.on {
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
@@ -385,13 +415,13 @@ You probably want to change the styling.
 .p58.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 	color:white;
 }
 
 .p59.on {
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
@@ -399,139 +429,139 @@ You probably want to change the styling.
 .p60.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+	font-family: "brenner slab";
 	color: white;
 }
 
 .p61.on {
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p62.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p63.on {
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p64.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p65.on {
-	font-size: 20px;
-	font-family: brenner;
+	font-size: 22px;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p66.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p67.on {
 	font-size: 30px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p68.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p69.on {
 	font-size: 30px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p70.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p71.on {
 	font-size: 30px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p72.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p73.on {
 	font-size: 30px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p74.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p75.on {
 	font-size: 40px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p76.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p77.on {
 	font-size: 40px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
 
 .p78.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
 }
 
 .p79.on {
 	font-size: 20px;
-	font-family: brenner;
+	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
 }
@@ -677,15 +707,19 @@ Sounds.
 	100%	{ background-color: grey}
 }
 
-@keyframes videoBorder {
-	from {}
+@keyframes backgroundGradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-/* .sound0 {
-	animation: radialAlarm 2s;
-	animation-iteration-count: infinite;
- 
-} */
+
 
 .sound0 {
 	background-image: radial-gradient(red, rgba(0,0,0,0.5));
@@ -744,7 +778,7 @@ Sounds.
 	animation-iteration-count: infinite;
 }
 .sound12 {
-	background-color: green;
+	background-color: black;
 	animation-name: none;
 	
 }
@@ -754,22 +788,36 @@ Sounds.
 	animation: radialFade 5.5s ease-in-out;
 }
 
-.sound14 {
+/* .sound14 {
 	animation-name:none;
     background-color: black;
+} */
+
+.sound14 {
+	background-image: linear-gradient(90deg, black, red, black);
+	background-size: 400%;
+	animation: backgroundGradient 12s infinite;
+
 }
 
-.sound15 {
-	animation: blinkingBackground2 0.2s;
-	animation-iteration-count: infinite;
-
+.sound17 {
+		background-image: linear-gradient(90deg, black, red, black);
+		background-size: 400%;
+		animation: backgroundGradient 4s infinite;
 }
 
-.sound16 {
+.sound18 {
+	background-image: linear-gradient(90deg, black, red, black);
+	background-size: 400%;
+	animation: backgroundGradient 2s infinite;
+}
+
+.sound19{
 	animation-name: none;
+    background-image: none;
 }
 
-.sound17 #video-mask{
+.sound20 #video-mask{
 	animation-name: none;
     opacity: 0;
 }
