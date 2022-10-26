@@ -19,9 +19,8 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	/* font-style: normal;
-	font-weight: bold; */
 	color: white;
+	font-weight:600;
 }
 .voice2 {
 	color: white;
