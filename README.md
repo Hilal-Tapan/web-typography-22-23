@@ -36,6 +36,10 @@ Ook heb ik er visueel voor gekozen om de stemmen op links of rechts te zetten. D
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/typo1.png) 
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/typo2.png) 
 
+Bij het tweede fragment gaat de ondervrager uiteindelijk steeds sneller en harder praten, hiervoor heb ik het font steeds groter gemaakt van de ondervrager.
+
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/typo3.png)
+
 ## Personages
 ### Personage 1: De man die vragen stelt
 Voor dit personage heb ik het font **Brenner mono** uitgekozen. Dit heb ik gedaan omdat dit personage erg eentonig is en door een soort intercom praat waardoor zijn stem ook een soort robot had kunnen zijn. Dit font vind ik daar erg bij passen, deze is namelijk ook erg industrieel.
@@ -64,6 +68,28 @@ De groene kleur is om aan te tonen dat hij de test heeft behaald.
 Fragment 2 is een beetje anders. In dit fragment is de pieptoon wat minder vervelend en speelt er een mooi instrument af op de achtergrond. Dit instrument maakt het een beetje mysterieus en spannend door hoe het wordt bespeeld. Hierdoor heb ik de kleur donkerblauw en een iets lichtere blauwe kleur gebruikt als gradient animation in dit fragment, vooral in het begin. Dit laat het erg mysterieus en serieus ogen. Naarmate dit fragment spannender word en de ondervragen agressiefer en sneller begint te praten komen er rode flitsen bij in de animation bij de donkerblauwe achtergrond. Deze gaan steeds sneller en vervolgens worden ze rood met zwart, naarmate hij de controle verliest. Ik heb rood en zwart gebruikt omdat het steeds alarmerender wordt en hij de test aan het falen is. Na dat de test gefaald is wordt het hele scherm zwart, zovan game over.
 
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%203.png) 
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%204.png)
+
+# Verborgen nuances
+
+## Radial-gradient animatie
+In het begin van de video hoor je een soort intro geluid, op dit geluid heb ik een radial gradient toegepast. De rode cirkel groeit en krimpt op het geluid. Ik heb gekozen voor rood omdat het een spanned geluid is en hierna volgt er een soort toeter en een sirene die beide alarmerende geluiden zijn. Rood vond ik het beste hierbij passen omdat dit ook een alarmerende kleur is. De gradient beweegt op de toeter en de sirene, bij de toeter groeit de gradient en bij de sirene knippert die als een soort alarm.
+
+Ik heb dit gemaakt met behulp van de keyframes radialAlarm, radialAlarm2 en blinkingBackground3.
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%201.png) 
+
+## Shake
+Vervolgens hoor je weer een soort alarm die een beetje trillerig is. Hierdoor heb ik het scherm laten shaken om dat geluid visueel te maken. Dit heb ik gedaan met de keyframes shake.
+
+## Blinking background 
+Op een gegeven moment hoor je een hele vervelende piep in het fragment die steeds harder wordt. Dit heb ik vormgegeven door een blinking background met grijze en zwarte kleuren. De kleuren worden steeds intenser met een groter contrast waardoor het steeds heftiger word om naar te kijken. Dus bij deze de trigger warning: FLASHING LIGHTS!!! :D
+
+## Green to black gradient
+Wanneer die de test heeft gehaald schiet de blinking background uit naar een zwart scherm omdat dit fijn oogt voor het oog. Vervolgens veranderd dit scherm naar een gradient animatie die van groen naar zwart loopt. Dit heb ik gedaan om en aan te duiden dat de test is behaald en als introductie naar het nieuwe fragment. Dit is gedaan met de radialFade keyframe.
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%202.png)
+
+## Linear-gradient animatie
+Vervolgens komt er een viool geluid die ik heb vormgegeven met een linear gradient die begint met de kleuren donkerblauw en een wat lichtere blauw, dit laat het rustig maar ook mysterieus ogen net als de achtergrond muziek. Naarmate het fragment wordt het steeds spannender en gaat de ondervrager harder praten. De hoofdpersoon krijgt moeite met antwoord geven op de vragen waardoor hij dreigt te verliezen. Hierdoor gaat komt er bij de gradient een rode kleur en gaat wat sneller. Daarna gaat die nog sneller en worden de kleuren rood met zwart, wat heel alarmerend oogt.
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%204.png)
 
 
