@@ -793,14 +793,14 @@ Sounds.
 } */
 
 .sound14 {
-	background-image: linear-gradient(90deg, black, red, black);
+	background-image: linear-gradient(90deg, #02072F,#02072F,#898da8, #02072F, #02072F);
 	background-size: 400%;
 	animation: backgroundGradient 12s infinite;
 
 }
 
 .sound17 {
-		background-image: linear-gradient(90deg, black, red, black);
+		background-image: linear-gradient(90deg, #02072F, #02072F, red, black);
 		background-size: 400%;
 		animation: backgroundGradient 4s infinite;
 }
@@ -808,7 +808,7 @@ Sounds.
 .sound18 {
 	background-image: linear-gradient(90deg, black, red, black);
 	background-size: 400%;
-	animation: backgroundGradient 2s infinite;
+	animation: backgroundGradient 1s infinite;
 }
 
 .sound19{
