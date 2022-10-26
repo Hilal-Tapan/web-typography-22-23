@@ -54,11 +54,17 @@ Dit personage lijkt erg op personage 1 maar is iets kalmer en menselijker naar m
 
 ### Fragment 1
 In fragment 1 heb ik voornamelijk de kleuren rood, grijs, zwart en groen op het einde gebruikt. Dit fragment was heel onaangenaam om naar te luisteren door de piep, de sirene, de toeters en de ondervraging. Ook schold iemand de hoofdpersoon uit en ondervroeg iemand hem een beetje aggresief. Hierdoor vond ik deze kleuren goed passen bij deze emoties. Ik vind rood een hele alarmerende kleur die je verteld dat er iets aan de hand is.
+De groene kleur is om aan te tonen dat hij de test heeft behaald.
+
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%201.png) 
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%202.png)
 
 
 ### Fragment 2
 Fragment 2 is een beetje anders. In dit fragment is de pieptoon wat minder vervelend en speelt er een mooi instrument af op de achtergrond. Dit instrument maakt het een beetje mysterieus en spannend door hoe het wordt bespeeld. Hierdoor heb ik de kleur donkerblauw en een iets lichtere blauwe kleur gebruikt in dit fragment, vooral in het begin. Dit laat het erg mysterieus en serieus ogen. Naarmate dit fragment spannender word en de ondervragen agressiefer en sneller begint te praten komen er rode flitsen bij de donkerblauwe achtergrond. Deze gaan steeds sneller en vervolgens rood met zwart worden, naarmate hij de controle verliest. Ik heb rood en zwart gebruikt omdat het steeds alarmerender wordt en hij de test aan het falen is. Na dat de test gefaald is wordt het hele scherm zwart, zovan game over.
 
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%203.png) 
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%204.png)
 
 
 
