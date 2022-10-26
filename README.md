@@ -34,14 +34,21 @@ We kregen eigenlijk gelijk als tip van Vasilis om gewoon te beginnen met coderen
 ## Typografische keuzes
 Ik heb gekozen voor het brenner lettertype omdat er zoveel opties zijn binnen het font. Dit leek me erg handig om dit toe te passen op de verschillende personages. Ieder personage krijgt zo zijn eigen font zodat de doelgroep beter kan onderscheiden dat het gaat om verschillende personen.
 
+Ook heb ik er visueel voor gekozen om de stemmen op links of rechts te zetten. Dit heb ik gedaan omdat toen ik de video met oordoppen in luisterde viel me op dat het een 3d sound was waardoor je de ene stem in je linker oortje hoort en de andere in je rechter oortje. Dit heb ik visueel dus nagedaan, om die ervaring mee te geven aan de doelgroep.
+
 ## Personages
 ### Personage 1: De man die vragen stelt
-dnjw
-### Personage 2: Hoofdpersonage
+Voor dit personage heb ik het font Brenner mono uitgekozen. Dit heb ik gedaan omdat dit personage erg eentonig is en door een soort intercom praat waardoor zijn stem ook een soort robot had kunnen zijn. Dit font vind ik daar erg bij passen, deze is namelijk ook erg industrieel.
 
-### Personage 3: Persoon die vloekte
+### Personage 2: Hoofdpersonage
+Voor de hoofdpersonage heb ik simpelweg Brenner gekozen. Ik vond dit wat organischer en zachter door de ronde vormen die erin zitten. Dit vind ik passen bij de hoofdpersoon omdat hij ook wat stiller en menselijker is dan de andere personages.
+
+### Personage 3: "fuck off skinjob"
+Brenner display black is het font wat ik heb gekozen voor dit personage. Dit font is heel hard en bold wat ik goed vind passen bij deze situatie. Dit karakter scheld de hoofdpersoon uit en dit font geeft dat visueel goed weer naar mijn mening.
 
 ### Personage 4: You can pick up your bonus
+Dit personage lijkt erg op personage 1 maar is iets kalmer en menselijker naar mijn mening. Daarom vond ik Brenner sans erg goed passen bij hem. Brenner sans is ook best blokkig maar ook een beetje organisch en dit associeer ik met zakelijk maar wel positief. En zo zie ik personage 4 ook voor me, daarom vond ik dit font goed passen bij hem.
+
 
 
 
