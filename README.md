@@ -35,6 +35,8 @@ We kregen eigenlijk gelijk als tip van Vasilis om gewoon te beginnen met coderen
 Ik heb gekozen voor het brenner lettertype omdat er zoveel opties zijn binnen het font. Dit leek me erg handig om dit toe te passen op de verschillende personages. Ieder personage krijgt zo zijn eigen font zodat de doelgroep beter kan onderscheiden dat het gaat om verschillende personen.
 
 Ook heb ik er visueel voor gekozen om de stemmen op links of rechts te zetten. Dit heb ik gedaan omdat toen ik de video met oordoppen in luisterde viel me op dat het een 3d sound was waardoor je de ene stem in je linker oortje hoort en de andere in je rechter oortje. Dit heb ik visueel dus nagedaan, om die ervaring mee te geven aan de doelgroep.
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/typo1.png) 
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/typo2.png) 
 
 ## Personages
 ### Personage 1: De man die vragen stelt
