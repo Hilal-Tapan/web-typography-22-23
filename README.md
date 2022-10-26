@@ -37,19 +37,27 @@ Ook heb ik er visueel voor gekozen om de stemmen op links of rechts te zetten. D
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/typo2.png) 
 
 ## Personages
-#### Personage 1: De man die vragen stelt
+### Personage 1: De man die vragen stelt
 Voor dit personage heb ik het font **Brenner mono** uitgekozen. Dit heb ik gedaan omdat dit personage erg eentonig is en door een soort intercom praat waardoor zijn stem ook een soort robot had kunnen zijn. Dit font vind ik daar erg bij passen, deze is namelijk ook erg industrieel.
 
-#### Personage 2: Hoofdpersonage
+### Personage 2: Hoofdpersonage
 Voor de hoofdpersonage heb ik simpelweg **Brenner** gekozen. Ik vond dit wat organischer en zachter door de ronde vormen die erin zitten. Dit vind ik passen bij de hoofdpersoon omdat hij ook wat stiller en menselijker is dan de andere personages.
 
-#### Personage 3: "fuck off skinjob"
+### Personage 3: "fuck off skinjob"
 **Brenner display black** is het font wat ik heb gekozen voor dit personage. Dit font is heel hard en bold wat ik goed vind passen bij deze situatie. Dit karakter scheld de hoofdpersoon uit en dit font geeft dat visueel goed weer naar mijn mening.
 
-#### Personage 4: You can pick up your bonus
+### Personage 4: You can pick up your bonus
 Dit personage lijkt erg op personage 1 maar is iets kalmer en menselijker naar mijn mening. Daarom vond ik **Brenner sans** erg goed passen bij hem. Brenner sans is ook best blokkig maar ook een beetje organisch en dit associeer ik met zakelijk maar wel positief. En zo zie ik personage 4 ook voor me, daarom vond ik dit font goed passen bij hem.
 
 
+## Kleur keuzes
+
+### Fragment 1
+In fragment 1 heb ik voornamelijk de kleuren rood, grijs, zwart en groen op het einde gebruikt. Dit fragment was heel onaangenaam om naar te luisteren door de piep, de sirene, de toeters en de ondervraging. Ook schold iemand de hoofdpersoon uit en ondervroeg iemand hem een beetje aggresief. Hierdoor vond ik deze kleuren goed passen bij deze emoties. Ik vind rood een hele alarmerende kleur die je verteld dat er iets aan de hand is.
+
+
+### Fragment 2
+Fragment 2 is een beetje anders. In dit fragment is de pieptoon wat minder vervelend en speelt er een mooi instrument af op de achtergrond. Dit instrument maakt het een beetje mysterieus en spannend door hoe het wordt bespeeld. Hierdoor heb ik de kleur donkerblauw en een iets lichtere blauwe kleur gebruikt in dit fragment, vooral in het begin. Dit laat het erg mysterieus en serieus ogen. Naarmate dit fragment spannender word en de ondervragen agressiefer en sneller begint te praten komen er rode flitsen bij de donkerblauwe achtergrond. Deze gaan steeds sneller en vervolgens rood met zwart worden, naarmate hij de controle verliest. Ik heb rood en zwart gebruikt omdat het steeds alarmerender wordt en hij de test aan het falen is. Na dat de test gefaald is wordt het hele scherm zwart, zovan game over.
 
 
 
