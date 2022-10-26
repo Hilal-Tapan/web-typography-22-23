@@ -26,7 +26,18 @@ Tijdens het ontwerpen van de filmfragmenten moeten we rekening houden met de vol
 
 
 # Proces
-We kregen eigenlijk gelijk als tip van Vasilis om gewoon te beginnen met coderen. Zo doe je lekker inspiratie op en krijg je along the way ideeën. Dus dit deed ik. Ik vond dit super fijn werken, want in het begin dacht ik echt wat ga ik in hemelsnaam maken. Maar toen ik gewoon begon met coderen vloeide de ideeën binnen.
+Ik ben begonnen met de opdracht goed door te lezen, te analyseren en vragen te stellen aan de docent. Hierna heb ik de video een aantal keer bekenen met en zonder oordoppen en deze ook geanalyseerd. Dit draagt bij aan het design principe 'study stituation'
+
+Vervolgens heb ik wat ideeën opgeschreven:
+- Laten trillen
+- Bold en dun
+- Laten springen
+- Verschillend kleurgebruik
+- Grote en kleine woorden
+- Scherm groter en kleiner maken
+- Iets doen met die piep, achtergrond? Of puntjes, of het scherm laten trillen?
+
+We kregen eigenlijk gelijk als tip van Vasilis om gewoon te beginnen met coderen. Zo doe je lekker inspiratie op en krijg je along the way ideeën. Dus dit deed ik. Ik vond dit super fijn werken, want in het begin dacht ik echt wat ga ik in hemelsnaam maken. Maar toen ik gewoon begon met coderen vloeide de ideeën binnen en begon ik het echt super leuk te vinden.
 
 ## Typografische keuzes
 Ik heb gekozen voor het brenner lettertype omdat er zoveel opties zijn binnen het font. Dit leek me erg handig om dit toe te passen op de verschillende personages. Ieder personage krijgt zo zijn eigen font zodat de doelgroep beter kan onderscheiden dat het gaat om verschillende personen.
@@ -55,7 +66,6 @@ Dit personage lijkt erg op personage 1 maar is iets kalmer en menselijker naar m
 
 
 ## Kleur keuzes
-
 ### Fragment 1
 In fragment 1 heb ik voornamelijk de kleuren rood, grijs, zwart en groen op het einde gebruikt. Dit fragment was heel onaangenaam om naar te luisteren door de piep, de sirene, de toeters en de ondervraging. Ook schold iemand de hoofdpersoon uit en ondervroeg iemand hem een beetje aggresief. Hierdoor vond ik deze kleuren goed passen bij deze emoties. Ik vind rood een hele alarmerende kleur die je verteld dat er iets aan de hand is.
 De groene kleur is om aan te tonen dat hij de test heeft behaald.
@@ -71,35 +81,77 @@ Fragment 2 is een beetje anders. In dit fragment is de pieptoon wat minder verve
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%204.png)
 
 # Verborgen nuances
-
 ## Radial-gradient animatie
 In het begin van de video hoor je een soort intro geluid, op dit geluid heb ik een radial gradient toegepast. De rode cirkel groeit en krimpt op het geluid. Ik heb gekozen voor rood omdat het een spanned geluid is en hierna volgt er een soort toeter en een sirene die beide alarmerende geluiden zijn. Rood vond ik het beste hierbij passen omdat dit ook een alarmerende kleur is. De gradient beweegt op de toeter en de sirene, bij de toeter groeit de gradient en bij de sirene knippert die als een soort alarm.
 
 Ik heb dit gemaakt met behulp van de keyframes radialAlarm, radialAlarm2 en blinkingBackground3.
+
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%201.png) 
 
+**Itheratie**
+In het begin had ik niks gedaan met die begin geluiden, tot ik hier feedback op kreeg. Ik weet niet waarom maar ze waren me eerst niet zo opgevallen. Ik zat lang te twijfelen wat ik ermee wou doen. Ik besefte me dat ik nog nooit iets had gedaan met een radial-gradient en al helemaal nooit geanimeerd, dus ik wou hier lekker mee experimenteren en ik vond het natuurlijk ook passen bij de geluiden. Het ging gelijk best wel soepel, met behulp van verschillende bronnen.
+
 ## Shake
-Vervolgens hoor je weer een soort alarm die een beetje trillerig is. Hierdoor heb ik het scherm laten shaken om dat geluid visueel te maken. Dit heb ik gedaan met de keyframes shake.
+Vervolgens hoor je weer een soort alarm die een beetje trillerig is. Hierdoor heb ik het video scherm laten shaken om dat geluid visueel te maken. Dit heb ik gedaan met de keyframes shake.
+
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/shake%20image%20css.png) 
 
 ## Blinking background 
-Op een gegeven moment hoor je een hele vervelende piep in het fragment die steeds harder wordt. Dit heb ik vormgegeven door een blinking background met grijze en zwarte kleuren. De kleuren worden steeds intenser met een groter contrast waardoor het steeds heftiger word om naar te kijken. Dus bij deze de trigger warning: FLASHING LIGHTS!!! :D
+Op een gegeven moment hoor je een hele vervelende piep in het fragment die steeds harder wordt. Dit heb ik vormgegeven door een blinking background met grijze en zwarte kleuren. De kleuren worden steeds intenser met een groter contrast waardoor het steeds heftiger word om naar te kijken. Dus bij deze de trigger warning: FLASHING LIGHTS!!! :D Dit is gedaan met de keyframes blinkingBackground.
+
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/blinking%20background%20css.png 
+
+**Itheratie**
+Ik had bij deze animatie eerst hele felle kleuren en dan de hele tijd zo door, wat het heel extreem en ook monotoom maakte. Ik kreeg als feedback om het op te laten bouwen, dus dit heb ik gedaan. Ik heb 3 verschillende keyframes aangemaakt met steeds contrast vollere kleuren en deze op verschillende sounds gezet, waardoor het steeds heftiger wordt net als die piep. Dit was een hele goede tip want hierdoor past het heel goed bij de piep.
 
 ## Green to black gradient
 Wanneer die de test heeft gehaald schiet de blinking background uit naar een zwart scherm omdat dit fijn oogt voor het oog. Vervolgens veranderd dit scherm naar een gradient animatie die van groen naar zwart loopt. Dit heb ik gedaan om en aan te duiden dat de test is behaald en als introductie naar het nieuwe fragment. Dit is gedaan met de radialFade keyframe.
+
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%202.png)
 
 ## Linear-gradient animatie
 Vervolgens komt er een viool geluid die ik heb vormgegeven met een linear gradient die begint met de kleuren donkerblauw en een wat lichtere blauw, dit laat het rustig maar ook mysterieus ogen net als de achtergrond muziek. Naarmate het fragment wordt het steeds spannender en gaat de ondervrager harder praten. De hoofdpersoon krijgt moeite met antwoord geven op de vragen waardoor hij dreigt te verliezen. Hierdoor gaat komt er bij de gradient een rode kleur en gaat wat sneller. Daarna gaat die nog sneller en worden de kleuren rood met zwart, wat heel alarmerend oogt.
+
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%204.png)
 
+**Itheratie**
+Bij dit fragment had ik eigenlijk hiervoor ook een blinking background tot ik besefte dat het een hele andere sfeer heeft dan fragment 1. Daarom ben ik goed gaan luisteren en vond ik een linear gradient animatie toepassen. (En eigenlijk ook een video border animatie, maar na een hele dag proberen is dit gewoon niet gelukt en heb dit achterwege gelaten.) 
+De gradient animatie ging best prima, ik heb ook met andere gradients geëxperimenteerd maar kwam tot de conclusie dat de linear het beste paste.
+
+
+## Designprincipes
+**Study situation**
+Ben begonnen met de video en opdracht te analyseren op verschillende manieren, zodat ik een zo goed mogelijk beeld kan scheppen van de situatie.
+
+**Ignore Conventions**
+Ik heb genegeerd wat ik altijd doe en wat comfortabel voelt voor mij en ben gaan kijken naar wat cool is en bij het geluid past ondanks of het heel user experience friendly is.
+
+**Prioritise Identity**
+Gedurende het proces wou ik de identiteit van zowel de film als die van mezelf behouden en heb dit ook geprobeerd. Alle kleuren en fonts zijn in de stijl van de film maar de animaties en ideeën zijn allemaal mijn stijl.
+
+**Add Nonsense**
+"Allowing weird ideas", dit vond ik in het begin moeilijk maar uiteindelijk vond ik dit deel juist het allerleukst. Het is zo vrij en creatief allemaal. We hoefde niet in de kaders te blijven dus ik heb me lekker uitgeleefd.
 
 
 # Voortgangsgesprekken
 ## Voortgang 1
+Ik had de "fuck off skinjob" rode tekst op een zwarte achtergrond gedaan waardoor het niet goed te lezen was, hierdoor heb ik een rode background toegepast op de tekst en witte letters.
+Ga zoveel mogelijk code typen.
+Maak screens van je tests voor je verslag.
+Mag expressiever, minder voorzichtig
+
+## Extra feedback moment aangevraagt voor de vakantie
+- Tweede fragment is aangenamer om naar te luisteren, dus de vormgeving moet niet helemaal hetzelfde.
+- Eerste paar seconde alarmgeluiden vormgeven
+- Flitsen kunnen irritanter, op laten bouwen.
+- Tweede deel andere achtergrond, minder iritant
+- Na de flitsen een wiit beeld, is dat fijn voor je ogen of beter een andere kleur?
+
 ## Voortgang 2
-## Feedback
+Ik kreeg na de vakantie te horen dat ik goed bezig was. De blinking background was super irritant wat goed is, want dat is de piep ook. Ik was hier erg blij mee en ook dat ik dit al had gevraagt voor de vakantie zodat ik hier lekker aan had kunnen werken. Ik kreeg te horen dat het tweede deel niet hetzelfde moest en echt wel anders was, dus hier ben ik mee aan de slag gegaan toen. Ook kreeg ik te horen dat ik misschien per karakter een ander font kan toepassen, dit heb ik ook gelijk verwerkt.
 
-
+## Reflectie
+Ik vond dit denk ik het leukste vak tot nu toe van CMD. Het was heel erg een verassing dat we wat met code gingen doen deze minor maar dat vond ik juist heel leuk. Ik hou van code en ik wil graag alle mogelijkheden nemen om er beter in te worden en dit was een hele goede mogelijkheid daarvoor. Ik had nog nooit css toegepast op een video met sounds en al. Ook had ik nog nooit een animatie gemaakt hiervoor dus ik heb ontzettend veel geleerd deze twee weken. De tijd vloog voorbij omdat ik het erg naar me zin had.
 
 # Bronnen
 
