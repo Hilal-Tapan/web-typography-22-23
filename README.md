@@ -88,7 +88,7 @@ Ik heb dit gemaakt met behulp van de keyframes radialAlarm, radialAlarm2 en blin
 
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%201.png) 
 
-**Itheratie**
+#### Itheratie
 In het begin had ik niks gedaan met die begin geluiden, tot ik hier feedback op kreeg. Ik weet niet waarom maar ze waren me eerst niet zo opgevallen. Ik zat lang te twijfelen wat ik ermee wou doen. Ik besefte me dat ik nog nooit iets had gedaan met een radial-gradient en al helemaal nooit geanimeerd, dus ik wou hier lekker mee experimenteren en ik vond het natuurlijk ook passen bij de geluiden. Het ging gelijk best wel soepel, met behulp van verschillende bronnen.
 
 ## Shake
@@ -99,9 +99,9 @@ Vervolgens hoor je weer een soort alarm die een beetje trillerig is. Hierdoor he
 ## Blinking background 
 Op een gegeven moment hoor je een hele vervelende piep in het fragment die steeds harder wordt. Dit heb ik vormgegeven door een blinking background met grijze en zwarte kleuren. De kleuren worden steeds intenser met een groter contrast waardoor het steeds heftiger word om naar te kijken. Dus bij deze de trigger warning: FLASHING LIGHTS!!! :D Dit is gedaan met de keyframes blinkingBackground.
 
-![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/blinking%20background%20css.png 
+![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/blinking%20background%20css.png )
 
-**Itheratie**
+#### Itheratie
 Ik had bij deze animatie eerst hele felle kleuren en dan de hele tijd zo door, wat het heel extreem en ook monotoom maakte. Ik kreeg als feedback om het op te laten bouwen, dus dit heb ik gedaan. Ik heb 3 verschillende keyframes aangemaakt met steeds contrast vollere kleuren en deze op verschillende sounds gezet, waardoor het steeds heftiger wordt net als die piep. Dit was een hele goede tip want hierdoor past het heel goed bij de piep.
 
 ## Green to black gradient
@@ -114,31 +114,31 @@ Vervolgens komt er een viool geluid die ik heb vormgegeven met een linear gradie
 
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%204.png)
 
-**Itheratie**
+#### Itheratie
 Bij dit fragment had ik eigenlijk hiervoor ook een blinking background tot ik besefte dat het een hele andere sfeer heeft dan fragment 1. Daarom ben ik goed gaan luisteren en vond ik een linear gradient animatie toepassen. (En eigenlijk ook een video border animatie, maar na een hele dag proberen is dit gewoon niet gelukt en heb dit achterwege gelaten.) 
 De gradient animatie ging best prima, ik heb ook met andere gradients geëxperimenteerd maar kwam tot de conclusie dat de linear het beste paste.
 
 
 ## Designprincipes
-**Study situation**
+#### Study situation
 Ben begonnen met de video en opdracht te analyseren op verschillende manieren, zodat ik een zo goed mogelijk beeld kan scheppen van de situatie.
 
-**Ignore Conventions**
+#### Ignore Conventions
 Ik heb genegeerd wat ik altijd doe en wat comfortabel voelt voor mij en ben gaan kijken naar wat cool is en bij het geluid past ondanks of het heel user experience friendly is.
 
-**Prioritise Identity**
+#### Prioritise Identity
 Gedurende het proces wou ik de identiteit van zowel de film als die van mezelf behouden en heb dit ook geprobeerd. Alle kleuren en fonts zijn in de stijl van de film maar de animaties en ideeën zijn allemaal mijn stijl.
 
-**Add Nonsense**
+#### Add Nonsense
 "Allowing weird ideas", dit vond ik in het begin moeilijk maar uiteindelijk vond ik dit deel juist het allerleukst. Het is zo vrij en creatief allemaal. We hoefde niet in de kaders te blijven dus ik heb me lekker uitgeleefd.
 
 
 # Voortgangsgesprekken
 ## Voortgang 1
-Ik had de "fuck off skinjob" rode tekst op een zwarte achtergrond gedaan waardoor het niet goed te lezen was, hierdoor heb ik een rode background toegepast op de tekst en witte letters.
-Ga zoveel mogelijk code typen.
-Maak screens van je tests voor je verslag.
-Mag expressiever, minder voorzichtig
+- Ik had de "fuck off skinjob" rode tekst op een zwarte achtergrond gedaan waardoor het niet goed te lezen was, hierdoor heb ik een rode background toegepast op de tekst en witte letters.
+- Ga zoveel mogelijk code typen.
+- Maak screenshots van je tests voor je verslag.
+- Mag expressiever, minder voorzichtig
 
 ## Extra feedback moment aangevraagt voor de vakantie
 - Tweede fragment is aangenamer om naar te luisteren, dus de vormgeving moet niet helemaal hetzelfde.
@@ -151,7 +151,7 @@ Mag expressiever, minder voorzichtig
 Ik kreeg na de vakantie te horen dat ik goed bezig was. De blinking background was super irritant wat goed is, want dat is de piep ook. Ik was hier erg blij mee en ook dat ik dit al had gevraagt voor de vakantie zodat ik hier lekker aan had kunnen werken. Ik kreeg te horen dat het tweede deel niet hetzelfde moest en echt wel anders was, dus hier ben ik mee aan de slag gegaan toen. Ook kreeg ik te horen dat ik misschien per karakter een ander font kan toepassen, dit heb ik ook gelijk verwerkt.
 
 ## Reflectie
-Ik vond dit denk ik het leukste vak tot nu toe van CMD. Het was heel erg een verassing dat we wat met code gingen doen deze minor maar dat vond ik juist heel leuk. Ik hou van code en ik wil graag alle mogelijkheden nemen om er beter in te worden en dit was een hele goede mogelijkheid daarvoor. Ik had nog nooit css toegepast op een video met sounds en al. Ook had ik nog nooit een animatie gemaakt hiervoor dus ik heb ontzettend veel geleerd deze twee weken. De tijd vloog voorbij omdat ik het erg naar me zin had.
+Ik vond dit denk ik het leukste vak tot nu toe van CMD. Het was een verassing voor mij dat we wat met code gingen doen bij deze minor maar dat vond ik juist heel leuk. Ik hou van code en ik wil graag alle mogelijkheden nemen om er beter in te worden, dit was een hele goede mogelijkheid daarvoor. Ik had nog nooit css toegepast op een video met sounds en al. Ook had ik nog nooit een animatie gemaakt hiervoor dus ik heb ontzettend veel geleerd deze twee weken. De tijd vloog voorbij omdat ik het erg naar me zin had.
 
 # Bronnen
 
