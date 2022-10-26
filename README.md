@@ -102,12 +102,14 @@ Op een gegeven moment hoor je een hele vervelende piep in het fragment die steed
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/blinking%20background%20css.png )
 
 #### Itheratie
-Ik had bij deze animatie eerst hele felle kleuren en dan de hele tijd zo door, wat het heel extreem en ook monotoom maakte. Ik kreeg als feedback om het op te laten bouwen, dus dit heb ik gedaan. Ik heb 3 verschillende keyframes aangemaakt met steeds contrast vollere kleuren en deze op verschillende sounds gezet, waardoor het steeds heftiger wordt net als die piep. Dit was een hele goede tip want hierdoor past het heel goed bij de piep.
+Ik had bij deze animatie eerst hele felle kleuren en dan de hele tijd zo door, wat het heel extreem en ook monotoom maakte. Ik kreeg als feedback om het op te laten bouwen, dus dit heb ik gedaan. Ik heb 3 verschillende keyframes aangemaakt met steeds contrast vollere kleuren en deze op verschillende sounds gezet, waardoor het steeds heftiger wordt net als die piep. Dit was een hele goede tip want hierdoor past het heel goed bij de piep. 
+Ik had wel veel moeite om de animatie te laten stoppen en vervolgens kreeg ik de tip om animation-name:none; te doen. Deze kende ik nog niet maar is super helpvol geweest.
 
 ## Green to black gradient
 Wanneer die de test heeft gehaald schiet de blinking background uit naar een zwart scherm omdat dit fijn oogt voor het oog. Vervolgens veranderd dit scherm naar een gradient animatie die van groen naar zwart loopt. Dit heb ik gedaan om en aan te duiden dat de test is behaald en als introductie naar het nieuwe fragment. Dit is gedaan met de radialFade keyframe.
 
 ![alt text](https://github.com/Hilal-Tapan/web-typography-22-23/blob/main/fotos/kleur%202.png)
+
 
 ## Linear-gradient animatie
 Vervolgens komt er een viool geluid die ik heb vormgegeven met een linear gradient die begint met de kleuren donkerblauw en een wat lichtere blauw, dit laat het rustig maar ook mysterieus ogen net als de achtergrond muziek. Naarmate het fragment wordt het steeds spannender en gaat de ondervrager harder praten. De hoofdpersoon krijgt moeite met antwoord geven op de vragen waardoor hij dreigt te verliezen. Hierdoor gaat komt er bij de gradient een rode kleur en gaat wat sneller. Daarna gaat die nog sneller en worden de kleuren rood met zwart, wat heel alarmerend oogt.
@@ -153,40 +155,14 @@ Ik kreeg na de vakantie te horen dat ik goed bezig was. De blinking background w
 ## Reflectie
 Ik vond dit denk ik het leukste vak tot nu toe van CMD. Het was een verassing voor mij dat we wat met code gingen doen bij deze minor maar dat vond ik juist heel leuk. Ik hou van code en ik wil graag alle mogelijkheden nemen om er beter in te worden, dit was een hele goede mogelijkheid daarvoor. Ik had nog nooit css toegepast op een video met sounds en al. Ook had ik nog nooit een animatie gemaakt hiervoor dus ik heb ontzettend veel geleerd deze twee weken. De tijd vloog voorbij omdat ik het erg naar me zin had.
 
+
 # Bronnen
-
-
-
-
-
-
-
-
-
-## Typografische restricties
-
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
+- https://www.youtube.com/watch?v=NnrBempao2M 
+- https://www.youtube.com/watch?v=wqb0kaRdyyA
+- https://www.youtube.com/watch?v=jmTBX3lwGCQ 
+- https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient 
+- https://stackoverflow.com/questions/8482820/run-css3-animation-only-once-at-page-loading 
+- https://stackoverflow.com/questions/1461077/how-do-i-remove-background-image-in-css 
+- https://www.youtube.com/watch?v=qxRQ233JgCA&t=22s 
+- https://www.youtube.com/watch?v=wuUSVEcK-kM 
+- https://www.w3schools.com/howto/howto_css_shake_image.asp 
