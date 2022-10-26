@@ -21,14 +21,23 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	color: white;
 	font-weight:600;
+	font-family: "brenner mono";
 }
 .voice2 {
 	color: white;
+	font-family: "brenner";
+	font-style: normal;
+}
+
+.voice3 {
+	color: white;
+	font-family: "Brenner display black";
 }
  
 .voice4 {
 	font-style: normal;
 	color: white;
+	font-family: "brenner sans";
 }
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -40,7 +49,6 @@ You probably want to change the styling.
 ********************************************** */
 .p0.on {
 	font-size: 22px;
-	font-family: "brenner sans";
 	font-style: Normal;
 	
 }
@@ -49,11 +57,10 @@ You probably want to change the styling.
 .p1.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
+
 }
 
 .p2.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -61,39 +68,32 @@ You probably want to change the styling.
 .p3.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p4.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p5.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: brenner;
+
 }
 
 .p6.on {
 	background-color: red;
 	color:white;
-	font-family: "brenner mono";
 	font-size: 20px;
-	font-style: italic;
-	font-weight: bold;
 	/* fuck off skinjob */
 }
 
 .p7.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family:"brenner slab";
 }
 
 .p8.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 
@@ -102,17 +102,14 @@ You probably want to change the styling.
 .p9.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p10.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p11.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -120,17 +117,14 @@ You probably want to change the styling.
 .p12.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p13.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p14.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -138,17 +132,14 @@ You probably want to change the styling.
 .p15.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p16.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p17.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -156,11 +147,9 @@ You probably want to change the styling.
 .p18.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p19.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -168,17 +157,14 @@ You probably want to change the styling.
 .p20.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p21.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p22.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -186,17 +172,14 @@ You probably want to change the styling.
 .p23.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p24.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p25.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -204,17 +187,14 @@ You probably want to change the styling.
 .p26.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p27.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p28.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -222,11 +202,9 @@ You probably want to change the styling.
 .p29.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p30.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -234,17 +212,14 @@ You probably want to change the styling.
 .p31.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p32.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p33.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -252,17 +227,14 @@ You probably want to change the styling.
 .p34.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p35.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
 
 .p36.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -270,11 +242,9 @@ You probably want to change the styling.
 .p37.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p38.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -282,11 +252,9 @@ You probably want to change the styling.
 .p39.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p40.on {
-	font-family: "brenner sans";
 	font-size: 22px;
 	font-style: Normal;
 }
@@ -294,23 +262,19 @@ You probably want to change the styling.
 .p41.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p42.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p43.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 }
 
 .p44.on {
-	font-family: "brenner sans";
 	font-style: Normal;
 	font-size: 22px;
 	color: white;
@@ -318,14 +282,12 @@ You probably want to change the styling.
 }
 
 .p45.on {
-	font-family: "brenner sans";
 	font-style: Normal;
 	font-size: 22px;
 	color: white;
 }
 
 .p46.on {
-	font-family: "brenner sans";
 	font-style: Normal;
 	font-size: 22px;
 	color:white;
@@ -334,235 +296,223 @@ You probably want to change the styling.
 .p47.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color: white;
-	
 }
 
 .p48.on {
-	font-family: "brenner sans";
 	font-style: Normal;
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 20px;
 	color: white;
+	font-family: "brenner mono";
 	/* start tweede deel */
 }
 
 .p49.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color: white;
+	font-family: "brenner";
 }
 
 .p50.on {
-	font-family: "brenner sans";
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p51.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color: white;
+	font-family: "brenner";
 }
 
 .p52.on {
-	font-family: "brenner sans";
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p53.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color: white;
+	font-family: "brenner";
 }
 
 .p54.on {
-	font-family: "brenner sans";
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p55.on {
 	color: white;
-	font-size: 22px;
-	font-family: "brenner sans";
-	font-weight: bold;
+	font-size: 20px;
+	font-family: "brenner mono";
 }
 
 .p56.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color: white;
+	font-family: "brenner";
 }
 
 .p57.on {
-	font-size: 22px;
-	font-family: "brenner sans";
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p58.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color:white;
+	font-family: "brenner";
 }
 
 .p59.on {
-	font-size: 22px;
-	font-family: "brenner sans";
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p60.on {
 	font-size: 20px;
 	right: 6.2em;
-	font-family: "brenner slab";
 	color: white;
+	font-family: "brenner";
 }
 
 .p61.on {
-	font-size: 22px;
-	font-family: "brenner sans";
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p62.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p63.on {
-	font-size: 22px;
-	font-family: "brenner sans";
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p64.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p65.on {
-	font-size: 22px;
-	font-family: "brenner sans";
+	font-size: 20px;
 	color: white;
-	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p66.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p67.on {
 	font-size: 30px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p68.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p69.on {
 	font-size: 30px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p70.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p71.on {
 	font-size: 30px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p72.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p73.on {
 	font-size: 30px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p74.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p75.on {
 	font-size: 40px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p76.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p77.on {
 	font-size: 40px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 .p78.on {
 	font-size: 20px;
-	font-family: "brenner slab";
 	right: 6.2em;
 	color: white;
+	font-family: "brenner";
 }
 
 .p79.on {
 	font-size: 20px;
-	font-family: "brenner sans";
 	color: white;
 	font-weight: bold;
+	font-family: "brenner mono";
 }
 
 /* .p77.on body {

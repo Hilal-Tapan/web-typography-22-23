@@ -1,5 +1,6 @@
 # Inleiding
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. 
+
 Voor het vak Web typografie hebben we de opdracht gekregen om een video visueel vorm te geven voor een dove doelgroep. Dus eigenlijk closed captions maar dan veel visueler en extremer, waardoor de doelgroep een nieuwe experience krijgt tijdens het bekijken bij een film/ video. 
 
 ## Leerdoelen
@@ -31,7 +32,7 @@ Tijdens het ontwerpen van de filmfragmenten moeten we rekening houden met de vol
 We kregen eigenlijk gelijk als tip van Vasilis om gewoon te beginnen met coderen. Zo doe je lekker inspiratie op en krijg je along the way ideeën. Dus dit deed ik. Ik vond dit super fijn werken, want in het begin dacht ik echt wat ga ik in hemelsnaam maken. Maar toen ik gewoon begon met coderen vloeide de ideeën binnen.
 
 ## Typografische keuzes
-Brenner
+Ik heb gekozen voor het brenner lettertype omdat er zoveel opties zijn binnen het font. Dit leek me erg handig om dit toe te passen op de verschillende personages. Ieder personage krijgt zo zijn eigen font zodat de doelgroep beter kan onderscheiden dat het gaat om verschillende personen.
 
 ## Personages
 ### Personage 1: De man die vragen stelt
